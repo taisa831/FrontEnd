@@ -1,0 +1,66 @@
+.faqContent {
+    width: 758px;
+    margin: 0 auto;
+}
+
+.faqContent .hd1 {
+    font-size: large;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.faqContent .faqList {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.faqContent .faqList .title {
+    padding-left: 10px;
+}
+
+.faqContent .faqList .title {
+    #border-left: 5px solid;
+    padding: 10px;
+    font-size: medium;
+}
+
+.faqContent .faqList .title .hd2 {
+    content: "";
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    font-size: medium;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.faqContent .faqList .title .hd2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 3px;
+    background: #555;
+    font-size: medium;
+}
+
+.faqContent .faqList .title p {
+    margin-top: 10px;
+}
+
+.faqContent .faqList .contentInner {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.faqContent .faqList .contentInner .hd3 {
+    font-size: medium;
+}
+
+.faqContent .faqList .supplement {
+    margin-top: 10px;
+    padding-left: 10px;
+}
