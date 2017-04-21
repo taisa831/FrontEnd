@@ -1,3 +1,5 @@
-let log = () => {
-    console.log("ECMAScript2015")
-}
+"use strict";
+
+var add = (a, b) => {
+    return a + b;
+};
